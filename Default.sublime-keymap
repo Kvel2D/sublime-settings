@@ -13,7 +13,7 @@
     { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
 
     // selection expansion
-    { "keys": ["ctrl+e"], "command": "expand_region" },
+    { "keys": ["ctrl+s"], "command": "expand_region" },
     { 
         "keys": ["super+u"],
         "command": "expand_region",
