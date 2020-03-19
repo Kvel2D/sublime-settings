@@ -6,8 +6,8 @@
     { "keys": ["ctrl+shift+backspace"], "command": "jump_back" },
     { "keys": ["alt+shift+backspace"], "command": "jump_forward" }, 
     { "keys": ["ctrl+shift+c"], "command": "toggle_side_bar" },
-    { "keys": ["ctrl+alt+shift+s"], "command": "toggle_status_bar" },
-    { "keys": ["ctrl+alt+shift+m"], "command": "toggle_menu" },
+    { "keys": ["ctrl+shift+j"], "command": "toggle_status_bar" },
+    { "keys": ["ctrl+shift+k"], "command": "toggle_menu" },
     // rebind for linux
     { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
@@ -19,17 +19,5 @@
         "command": "expand_region",
         "args": {"undo": true},
         "context": [{ "key": "expand_region_soft_undo" }]
-    },
-    // cancel selection expansion, cursor stays at first occurence
-    { "keys": ["escape"], "command": "single_last_selection", "context":
-        [
-            { "key": "num_selections", "operator": "not_equal", "operand": 1 }
-        ]
-    },
-    // cancel selection expansion, cursor stays at last occurence
-    { "keys": ["shift+escape"], "command": "single_selection", "context":
-        [
-            { "key": "num_selections", "operator": "not_equal", "operand": 1 }
-        ]
     },
 ]
