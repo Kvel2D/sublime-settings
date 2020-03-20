@@ -4,3 +4,4 @@ grandson-of-obsidian
 todoreview
 auto-save
 gitsavvy
+hide menu
