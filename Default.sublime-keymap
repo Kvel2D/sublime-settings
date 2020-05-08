@@ -20,4 +20,6 @@
         "args": {"undo": true},
         "context": [{ "key": "expand_region_soft_undo" }]
     },
+
+    { "keys": ["ctrl+shift+s"], "command": "save" },
 ]
