@@ -22,4 +22,6 @@
     },
 
     { "keys": ["ctrl+shift+s"], "command": "save" },
+
+    { "keys": ["alt+q"], "command": "wrap_lines_plus", "args": {"width": 60}},
 ]
